@@ -5,7 +5,6 @@
     "packages/*"
   ],
   "scripts": {
-    "bundle": "lerna run --parallel bundle",
     "clean": "lerna run --parallel clean",
     "compile": "lerna run compile",
     "dev": "lerna run dev --parallel",
@@ -22,6 +21,8 @@
   "devDependencies": {
     "ts-jest": "^26.4.4",
     "awesome-typescript-loader": "^5.2.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "lerna": "^3.22.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
