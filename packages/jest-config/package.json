@@ -1,0 +1,14 @@
+{
+  "name": "@stan-ui/jest-config",
+  "author": "Stanislav Panchenko",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.3",
+    "@types/jest": "^26.0.20",
+    "@types/react": "17.0.0",
+    "jest": "^26.6.3"
+  },
+  "license": "MIT"
+}

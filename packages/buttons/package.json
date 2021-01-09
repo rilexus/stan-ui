@@ -1,0 +1,47 @@
+{
+  "name": "@stan-ui/buttons",
+  "author": "Stanislav Panchenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/cjs/index.js",
+  "typings": "lib/esm/index.d.ts",
+  "unpkg": "dist/buttons.bundle.js",
+  "scripts": {
+    "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
+    "dist": "run-s \"dist:*\"",
+    "dev": "run-p \"compile:esm -- --watch\"",
+    "dist:bundle": "cross-env NODE_ENV=production webpack",
+    "compile": "run-p \"compile:*\"",
+    "compile:esm": "tsc -p ./",
+    "compile:cjs": "tsc -p ./ -m commonjs --outDir lib/cjs",
+    "compile:esnext": "tsc -p ./ -t esnext --outDir lib/esnext",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0 || 16 || 17",
+    "react-dom": "^15.3.0 || 16 || 17"
+  },
+  "devDependencies": {
+    "@stan-ui/jest-config": "1.0.0",
+    "@stan-ui/webpack-build": "1.0.0",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.3",
+    "@types/jest": "^26.0.20",
+    "@types/react": "17.0.0",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1",
+    "typescript": "^4.1.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+
+  },
+  "license": "MIT"
+}
