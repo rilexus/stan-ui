@@ -2,6 +2,7 @@
   "name": "@stan-ui/jest-config",
   "author": "Stanislav Panchenko",
   "version": "1.0.4",
+  "private": false,
   "description": "",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.8",
@@ -14,5 +15,5 @@
   "dependencies": {
     "prettier": "^2.2.1"
   },
-  "gitHead": "71df2c5dc3ec6f976eca9a6466d37da26d66f217"
+  "gitHead": "2bf0088da27de5c41694555cdd3e2eae99d55aa8"
 }

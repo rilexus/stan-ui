@@ -1,6 +1,7 @@
 {
   "name": "@stan-ui/webpack-config",
   "version": "1.0.4",
+  "private": false,
   "description": "Webpack build scripts for @stan-ui packages",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
@@ -18,5 +19,5 @@
   },
   "author": "Stanislav Panchenko",
   "license": "MIT",
-  "gitHead": "71df2c5dc3ec6f976eca9a6466d37da26d66f217"
+  "gitHead": "2bf0088da27de5c41694555cdd3e2eae99d55aa8"
 }
