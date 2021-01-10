@@ -1,7 +1,7 @@
 {
   "name": "@stan-ui/jest-config",
   "author": "Stanislav Panchenko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.8",
