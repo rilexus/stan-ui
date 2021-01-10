@@ -13,7 +13,9 @@
     "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
     "format:check": "prettier --check \"./**/*.{ts,tsx,json}\"",
     "test": "lerna run --parallel test",
-    "test:watch": "lerna run --parallel test:watch"
+    "test:watch": "lerna run --parallel test:watch",
+    "prepare-release": "git checkout main && git pull --rebase origin main && lerna updated",
+    "release": "yarn run prepare-release && lerna publish --exact"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -42,6 +44,12 @@
     "type": "git",
     "url": "https://github.com/rilexus/stan-ui"
   },
+  "contributors": [
+    {
+      "name": "Stanislav Panchenko",
+      "url": "https://github.com/rilexus"
+    }
+  ],
   "private": true,
   "author": "Stanislav Panchenko",
   "version": "1.0.0"

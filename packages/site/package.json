@@ -29,5 +29,10 @@
   "description": "Site for the Stan-UI react library.",
   "author": "Stanislav Panchenko",
   "license": "MIT",
-  "gitHead": "c97c4a2d5a6059cf5ac464a9b2591453555af0b7"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rilexus/stan-ui",
+    "directory": "packages/site"
+  },
+  "gitHead": "5a489d06a6380a9951ab9b31ea98fb9e434bd9e8"
 }
