@@ -35,7 +35,7 @@ module.exports = {
     disableHostCheck: true,
     historyApiFallback: true,
     https: false,
-    index: path.resolve(__dirname, "src/index.html"),
+    index: path.resolve(__dirname, "./src/index.html"),
     inline: true,
     stats: "errors-only",
     open: false,
@@ -59,9 +59,7 @@ module.exports = {
       },
     ],
   },
-
   plugins,
-
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },

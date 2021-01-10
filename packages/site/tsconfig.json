@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "lib": ["dom", "es5", "es6"],
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strictNullChecks": false
+  }
+}
