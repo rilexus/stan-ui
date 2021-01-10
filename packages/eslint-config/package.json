@@ -2,6 +2,9 @@
   "name": "@stan-ui/eslint-config",
   "version": "1.0.5",
   "description": "ESLint configuration for @stan-ui packages.",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@blueprintjs/eslint-plugin": "^0.3.1",
     "@blueprintjs/tslint-config": "^3.0.3",
@@ -22,5 +25,5 @@
   },
   "author": "Stanislav Panchenko",
   "license": "MIT",
-  "gitHead": "2bf0088da27de5c41694555cdd3e2eae99d55aa8"
+  "gitHead": "c97c4a2d5a6059cf5ac464a9b2591453555af0b7"
 }

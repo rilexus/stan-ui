@@ -1,6 +1,9 @@
 {
   "name": "@stan-ui/site",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bundle": "webpack --config ./webpack.config.js",
     "dev": "webpack serve --config ./webpack.config.js"
@@ -26,5 +29,5 @@
   "description": "Site for the Stan-UI react library.",
   "author": "Stanislav Panchenko",
   "license": "MIT",
-  "gitHead": "2bf0088da27de5c41694555cdd3e2eae99d55aa8"
+  "gitHead": "c97c4a2d5a6059cf5ac464a9b2591453555af0b7"
 }
