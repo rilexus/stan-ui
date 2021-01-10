@@ -52,5 +52,6 @@
   "license": "MIT",
   "dependencies": {
     "prettier": "^2.2.1"
-  }
+  },
+  "gitHead": "1af5014036c3bbcba83a72d8c40a45a037435ec2"
 }
