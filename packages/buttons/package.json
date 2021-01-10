@@ -1,7 +1,7 @@
 {
   "name": "@stan-ui/buttons",
   "author": "Stanislav Panchenko",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -27,8 +27,8 @@
     "react-dom": "^15.3.0 || 16 || 17"
   },
   "devDependencies": {
-    "@stan-ui/jest-config": "^1.0.6",
-    "@stan-ui/webpack-config": "^1.0.6",
+    "@stan-ui/jest-config": "1.0.7",
+    "@stan-ui/webpack-config": "1.0.7",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@types/jest": "^26.0.20",

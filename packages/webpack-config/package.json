@@ -1,6 +1,6 @@
 {
   "name": "@stan-ui/webpack-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "publishConfig": {
     "access": "public"
