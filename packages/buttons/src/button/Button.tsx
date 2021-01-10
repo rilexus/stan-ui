@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Button = ():any => {
+const Button = (): any => {
   return <button>Button</button>;
 };
 

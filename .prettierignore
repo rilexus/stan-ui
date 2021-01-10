@@ -1,0 +1,9 @@
+node_modules/
+lib/
+dist/
+tsconfig.json
+package.json
+.prettierignore
+.gitignore
+.prettierrc.json
+lerna.json

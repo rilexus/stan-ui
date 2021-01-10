@@ -1,0 +1,25 @@
+{
+  "name": "@stan-ui/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for @stan-ui packages.",
+  "dependencies": {
+    "@blueprintjs/eslint-plugin": "^0.3.1",
+    "@blueprintjs/tslint-config": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "eslint-plugin-deprecation": "^1.2.0",
+    "eslint-plugin-header": "^3.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-react": "^7.21.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rilexus/stan-ui",
+    "directory": "packages/eslint-config"
+  },
+  "author": "Stanislav Panchenko",
+  "license": "MIT"
+}

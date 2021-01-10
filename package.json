@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "author": "Stanislav Panchenko",
+  "name": "@stan-ui/core",
+  "description": "Stan-UI react library.",
   "workspaces": [
     "packages/*"
   ],
@@ -10,6 +10,8 @@
     "dev": "lerna run dev --parallel",
     "dist": "run-s dist:libs",
     "dist:libs": "lerna run dist --parallel --scope \"@stan-ui/{buttons,}\"",
+    "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
+    "format:check": "prettier --check \"./**/*.{ts,tsx,json}\"",
     "test": "lerna run --parallel test",
     "test:watch": "lerna run --parallel test:watch"
   },
@@ -35,5 +37,12 @@
   },
   "dependencies": {
     "styled-components": "^5.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rilexus/stan-ui"
+  },
+  "private": true,
+  "author": "Stanislav Panchenko",
+  "version": "1.0.0"
 }

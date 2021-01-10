@@ -1,12 +1,12 @@
-import React from 'react';
-import {Button} from "@stan-ui/buttons";
+import React from "react";
+import { Button } from "@stan-ui/buttons";
 
 const App = () => {
   return (
     <div>
-      <Button/>
+      <Button />
     </div>
   );
 };
 
-export {App};
+export { App };

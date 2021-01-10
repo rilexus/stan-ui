@@ -1,5 +1,5 @@
 {
-  "name": "@stan-ui/webpack-build",
+  "name": "@stan-ui/webpack-config",
   "version": "1.0.0",
   "description": "Webpack build scripts for @stan-ui packages",
   "dependencies": {
