@@ -1,6 +1,6 @@
 {
   "name": "@stan-ui/webpack-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack build scripts for @stan-ui packages",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
