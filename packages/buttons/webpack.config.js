@@ -1,4 +1,4 @@
-const { baseConfig, COMMON_EXTERNALS } = require("@stan-ui/webpack-build");
+const { baseConfig, COMMON_EXTERNALS } = require("@stan-ui/webpack-config");
 const { merge } = require('webpack-merge');
 const path = require("path");
 
