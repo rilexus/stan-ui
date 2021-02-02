@@ -5,8 +5,10 @@
     "access": "public"
   },
   "scripts": {
-    "bundle": "webpack --config ./webpack.config.js",
-    "dev": "webpack serve --config ./webpack.config.js"
+    "webpack": "webpack --config ./webpack.config.js --env mode=production",
+    "webpack:serve": "webpack serve --config ./webpack.config.js --env mode=development --env port=8000",
+    "bundle": "npm run webpack",
+    "dev": "npm run webpack:serve"
   },
   "dependencies": {
     "@stan-ui/buttons": "1.0.9",

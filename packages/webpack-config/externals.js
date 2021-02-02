@@ -1,8 +1,3 @@
-module.exports = externalize({
-  "react": "React",
-  "react-dom": "ReactDOM"
-});
-
 /**
  * Generates a full webpack `external` listing declaring names for various module formats.
  * @param {Record<string, string | string[]>} externals
@@ -21,3 +16,10 @@ function externalize(externals) {
   }
   return newExternals;
 }
+
+const externals = externalize({
+  "react": "React",
+  "react-dom": "ReactDOM"
+});
+
+module.exports = externals

@@ -12,9 +12,9 @@
   "unpkg": "dist/buttons.bundle.js",
   "scripts": {
     "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
-    "dev": "run-p \"compile:esm -- --watch\"",
+    "dev": "run-p \"compile:cjs -- --watch\"",
     "dist": "run-s \"dist:*\"",
-    "dist:bundle": "cross-env NODE_ENV=production webpack",
+    "dist:bundle": "cross-env NODE_ENV=production webpack --env mode=production",
     "compile": "run-p \"compile:*\"",
     "compile:esm": "tsc -p ./",
     "compile:cjs": "tsc -p ./ -m commonjs --outDir lib/cjs",

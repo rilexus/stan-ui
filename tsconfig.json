@@ -1,4 +1,8 @@
 {
+  "exclude": [
+    "**/*.d.ts",
+    "packages/*/node_modules"
+  ],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
