@@ -12,13 +12,13 @@
     "dev": "npm run webpack:serve"
   },
   "dependencies": {
-    "@stan-ui/buttons": "1.0.10",
+    "@stan-ui/buttons": "1.0.11",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@stan-ui/webpack-config": "1.0.9",
+    "@stan-ui/webpack-config": "1.0.10",
     "@types/react-dom": "^17.0.0",
     "copy-webpack-plugin": "^7.0.0",
     "file-loader": "^6.2.0",
@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Site for the Stan-UI react library.",
   "author": "Stanislav Panchenko",
   "license": "MIT",
