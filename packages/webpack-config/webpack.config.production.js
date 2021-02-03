@@ -1,5 +1,7 @@
 function buildProductionWebpackConfig(env){
-  return {}
+  return {
+    devtool: false
+  }
 }
 
 module.exports = buildProductionWebpackConfig
