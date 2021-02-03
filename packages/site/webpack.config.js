@@ -1,10 +1,10 @@
-const { getBaseConfig } = require("@stan-ui/webpack-config");
+const { getWebpackConfig } = require("@stan-ui/webpack-config");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const { merge } = require('webpack-merge');
 const path = require("path");
 
 module.exports = (env) => {
-  const baseConfig = getBaseConfig(env)
+  const baseConfig = getWebpackConfig(env)
 
   return merge({}, baseConfig, {
     entry: {

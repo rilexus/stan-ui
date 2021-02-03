@@ -1,10 +1,10 @@
-const { getBaseConfig, COMMON_EXTERNALS } = require("@stan-ui/webpack-config");
+const { getWebpackConfig, COMMON_EXTERNALS } = require("@stan-ui/webpack-config");
 const { merge } = require('webpack-merge');
 const path = require("path");
 
 function webpackConfig(env) {
   return merge(
-    getBaseConfig(env),
+    getWebpackConfig(env),
     {
       entry: {
         buttons: [

@@ -1,7 +1,7 @@
-const getBaseConfig = require("./webpack.config");
+const getWebpackConfig = require("./webpack.config");
 const COMMON_EXTERNALS = require("./externals");
 
 module.exports = {
-  getBaseConfig,
+  getWebpackConfig,
   COMMON_EXTERNALS,
 };

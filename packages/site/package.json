@@ -5,9 +5,10 @@
     "access": "public"
   },
   "scripts": {
+    "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
     "webpack": "webpack --config ./webpack.config.js --env mode=production",
     "webpack:serve": "webpack serve --config ./webpack.config.js --env mode=development --env port=8000",
-    "bundle": "npm run webpack",
+    "dist": "npm run webpack",
     "dev": "npm run webpack:serve"
   },
   "dependencies": {

@@ -9,7 +9,7 @@
     "compile": "lerna run compile",
     "dev": "lerna run dev --parallel",
     "dist": "run-s dist:libs",
-    "dist:libs": "lerna run dist --parallel --scope \"@stan-ui/{buttons,}\"",
+    "dist:libs": "lerna run dist --parallel --scope \"@stan-ui/{buttons,site}\"",
     "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
     "format:check": "prettier --check \"./**/*.{ts,tsx,json}\"",
     "test": "lerna run --parallel test",
