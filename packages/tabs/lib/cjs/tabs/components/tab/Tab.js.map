@@ -1,0 +1,1 @@
+{"version":3,"file":"Tab.js","sourceRoot":"","sources":["../../../../../src/tabs/components/tab/Tab.tsx"],"names":[],"mappings":";;;AACA,qDAAoD;AAOpD,IAAM,GAAG,GAAG,UAAC,EAA0B;QAAzB,QAAQ,cAAA,EAAE,IAAI,UAAA;IAC1B,IAAM,UAAU,GAAG,6BAAc,EAAE,CAAA;IACnC,OAAO,UAAU,CAAC,aAAa,KAAK,IAAI,CAAC,CAAC,CAAC,QAAQ,CAAA,CAAC,CAAC,IAAI,CAAC;AAC5D,CAAC,CAAC;AAEM,kBAAG"}

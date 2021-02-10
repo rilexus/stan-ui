@@ -7,9 +7,9 @@
   "scripts": {
     "clean": "lerna run --parallel clean",
     "compile": "lerna run compile",
-    "dev": "lerna run dev --parallel",
+    "start:dev": "lerna run start:dev --parallel",
     "dist": "run-s dist:libs",
-    "dist:libs": "lerna run dist --parallel --scope \"@stan-ui/{buttons,site}\"",
+    "dist:libs": "lerna run dist --parallel --scope \"@stan-ui/{buttons,site,tabs}\"",
     "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
     "format:check": "prettier --check \"./**/*.{ts,tsx,json}\"",
     "test": "lerna run --parallel test",

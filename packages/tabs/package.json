@@ -1,12 +1,12 @@
 {
-  "name": "@stan-ui/buttons",
+  "name": "@stan-ui/tabs",
   "author": "Stanislav Panchenko",
-  "version": "1.0.12",
+  "version": "1.0.0",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "description": "Buttons for Stan-UI.",
+  "description": "Tabs component for Stan-UI.",
   "main": "lib/cjs/index.js",
   "typings": "lib/esm/index.d.ts",
   "unpkg": "dist/buttons.bundle.js",

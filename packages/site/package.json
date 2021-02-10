@@ -9,10 +9,12 @@
     "webpack": "webpack --config ./webpack.config.js --env mode=production",
     "webpack:serve": "webpack serve --config ./webpack.config.js --env mode=development --env port=8000",
     "dist": "npm run webpack",
-    "dev": "npm run webpack:serve"
+    "start:dev": "npm run webpack:serve",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@stan-ui/buttons": "1.0.12",
+    "@stan-ui/tabs": "1.0.0",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
