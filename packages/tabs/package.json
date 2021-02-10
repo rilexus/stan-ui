@@ -1,7 +1,7 @@
 {
   "name": "@stan-ui/tabs",
   "author": "Stanislav Panchenko",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "publishConfig": {
     "access": "public"
