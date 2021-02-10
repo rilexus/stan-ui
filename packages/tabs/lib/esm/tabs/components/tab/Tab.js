@@ -1,15 +1,12 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tab = void 0;
-var Tabs_context_1 = require("../tabs/Tabs.context");
+import { useTabsContext } from "../tabs/Tabs.context";
 // interface TabProps {
 //   name: string
 //   children: any;
 // }
 var Tab = function (_a) {
     var children = _a.children, name = _a.name;
-    var tabContext = Tabs_context_1.useTabsContext();
+    var tabContext = useTabsContext();
     return tabContext.activeTabName === name ? children : null;
 };
-exports.Tab = Tab;
+export { Tab };
 //# sourceMappingURL=Tab.js.map

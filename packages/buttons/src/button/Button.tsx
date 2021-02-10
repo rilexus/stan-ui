@@ -1,6 +1,6 @@
-import React from "react";
+import React, {ReactElement} from "react";
 
-const Button = (): any => {
+const Button = (): ReactElement => {
   return <button>Button</button>;
 };
 

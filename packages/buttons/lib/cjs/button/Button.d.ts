@@ -1,2 +1,3 @@
-declare const Button: () => any;
+import { ReactElement } from "react";
+declare const Button: () => ReactElement;
 export { Button };

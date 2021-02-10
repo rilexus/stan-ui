@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {ReactElement, useState} from 'react';
 import {Tabs as StanTabs, Tab, TabButton} from '@stan-ui/tabs'
 
 const tabs = [
@@ -12,10 +12,10 @@ const tabs = [
   },
 ]
 
-const Button = ({name}: {name: string}) => {
+const Button = ({name}: {name: string}): any => {
   return (
     <TabButton>
-      {(setTabName: (name: string) => void) => {
+      {(setTabName: any) => {
         return <button onClick={() => setTabName(name)}>Activate Tab: {name}</button>
       }}
     </TabButton>
@@ -23,7 +23,7 @@ const Button = ({name}: {name: string}) => {
 }
 
 
-const Tabs = () => {
+const Tabs = (): ReactElement => {
   const [activeTabName, setActiveTabName] = useState<string>('first')
 
   return (

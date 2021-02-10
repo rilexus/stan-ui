@@ -1,5 +1,5 @@
 import React, {
-  ReactNode,
+  ReactElement,
   useCallback,
   useMemo,
   useState
@@ -12,11 +12,11 @@ type TabChangeEvent = {
   }
 };
 
-interface TabsProps {
-  activeTabName: string;
-  children: ReactNode;
-  onTabChange: (e: TabChangeEvent) => void | undefined
-}
+// interface TabsProps {
+//   activeTabName: string;
+//   children?: ReactElement;
+//   onTabChange?: (e: TabChangeEvent) => void
+// }
 
 const buildTabChangeEvent = (name: string): TabChangeEvent => {
   return {
@@ -26,7 +26,7 @@ const buildTabChangeEvent = (name: string): TabChangeEvent => {
   }
 }
 
-const Tabs = ({ activeTabName, children, onTabChange }: TabsProps) => {
+const Tabs = ({ activeTabName, children, onTabChange }: any): ReactElement => {
   const [_activeTab, _setActiveTab] = useState(() => activeTabName)
 
   const isControlled = !!onTabChange

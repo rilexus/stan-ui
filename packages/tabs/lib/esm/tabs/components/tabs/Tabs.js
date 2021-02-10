@@ -1,9 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tabs = void 0;
-var tslib_1 = require("tslib");
-var react_1 = tslib_1.__importStar(require("react"));
-var Tabs_context_1 = require("./Tabs.context");
+import React, { useCallback, useMemo, useState } from 'react';
+import { TabContextProvider } from "./Tabs.context";
 // interface TabsProps {
 //   activeTabName: string;
 //   children?: ReactElement;
@@ -18,16 +14,16 @@ var buildTabChangeEvent = function (name) {
 };
 var Tabs = function (_a) {
     var activeTabName = _a.activeTabName, children = _a.children, onTabChange = _a.onTabChange;
-    var _b = react_1.useState(function () { return activeTabName; }), _activeTab = _b[0], _setActiveTab = _b[1];
+    var _b = useState(function () { return activeTabName; }), _activeTab = _b[0], _setActiveTab = _b[1];
     var isControlled = !!onTabChange;
-    var getActiveTag = react_1.useCallback(function () {
+    var getActiveTag = useCallback(function () {
         if (isControlled) {
             // if controlled return the activeTabName passed as props
             return activeTabName;
         }
         return _activeTab;
     }, [_activeTab, isControlled, activeTabName]);
-    var setActiveTabName = react_1.useCallback(function (name) {
+    var setActiveTabName = useCallback(function (name) {
         if (isControlled) {
             // delegate setting of the name to the parent of this component (Tabs)
             onTabChange(buildTabChangeEvent(name));
@@ -36,13 +32,13 @@ var Tabs = function (_a) {
             _setActiveTab(function () { return name; });
         }
     }, [_setActiveTab, onTabChange]);
-    var contextValue = react_1.useMemo(function () {
+    var contextValue = useMemo(function () {
         return {
             activeTabName: getActiveTag(),
             setActiveTabName: setActiveTabName,
         };
     }, [getActiveTag, setActiveTabName]);
-    return (react_1.default.createElement(Tabs_context_1.TabContextProvider, { value: contextValue }, children));
+    return (React.createElement(TabContextProvider, { value: contextValue }, children));
 };
-exports.Tabs = Tabs;
+export { Tabs };
 //# sourceMappingURL=Tabs.js.map

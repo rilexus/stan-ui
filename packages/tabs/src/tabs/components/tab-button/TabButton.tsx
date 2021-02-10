@@ -1,4 +1,4 @@
-import React, {ReactNode, useCallback} from 'react';
+import { ReactNode, useCallback} from 'react';
 import {useTabsContext} from "../tabs/Tabs.context";
 
 interface TabButtonProps {
@@ -7,10 +7,10 @@ interface TabButtonProps {
   ) => ReactNode
 }
 
-const TabButton = ({children}: TabButtonProps) => {
+const TabButton = ({children}: TabButtonProps): any => {
   const tabContext = useTabsContext()
 
-  const setActiveTabName = useCallback((name: string): void => {
+  const setActiveTabName = useCallback<(name: string)=>void>((name: string): void => {
     tabContext.setActiveTabName(name)
   }, [tabContext.setActiveTabName])
 
