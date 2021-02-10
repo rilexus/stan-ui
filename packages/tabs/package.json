@@ -8,7 +8,7 @@
   },
   "description": "Tabs component for Stan-UI.",
   "main": "lib/cjs/index.js",
-  "typings": "lib/esm/index.d.ts",
+  "typings": "lib/cjs/index.d.ts",
   "unpkg": "dist/buttons.bundle.js",
   "scripts": {
     "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
