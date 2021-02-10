@@ -13,8 +13,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@stan-ui/buttons": "1.0.12",
-    "@stan-ui/tabs": "1.0.0",
+    "@stan-ui/buttons": "1.0.13",
+    "@stan-ui/tabs": "1.0.1",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -30,7 +30,7 @@
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Site for the Stan-UI react library.",
   "author": "Stanislav Panchenko",
   "license": "MIT",
