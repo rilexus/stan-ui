@@ -1,5 +1,5 @@
 import React, {ReactElement, useState} from 'react';
-import {Tabs as StanTabs, Tab, TabButton} from '@stan-ui/tabs'
+import {TabButton, Tabs as StanTabs, Tab} from "@stan-ui/tabs";
 
 const tabs = [
   {

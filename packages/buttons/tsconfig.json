@@ -1,6 +1,7 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.settings.json",
   "compilerOptions": {
+    "composite": true,
     "outDir": "./lib/esm",
     "strictNullChecks": false
   }

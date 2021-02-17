@@ -1,3 +1,2 @@
-// @ts-ignore
-export { Button } from "./button/Button";
+export { Button } from "./src/button/Button";
 //# sourceMappingURL=index.js.map

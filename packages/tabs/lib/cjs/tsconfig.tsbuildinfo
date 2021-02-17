@@ -1,0 +1,291 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
+        "signature": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "signature": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/tslib/tslib.d.ts": {
+        "version": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "signature": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/csstype/index.d.ts": {
+        "version": "2421504d4ad8486abdb522b7bcdd4caafbcf4a320cdf7b19e780df258c639d7f",
+        "signature": "2421504d4ad8486abdb522b7bcdd4caafbcf4a320cdf7b19e780df258c639d7f",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/react/index.d.ts": {
+        "version": "5eec5df7493ec6ad30cd641228d5ec7a5cc46d86e04a7f5d4f3cc239c6fa05bc",
+        "signature": "5eec5df7493ec6ad30cd641228d5ec7a5cc46d86e04a7f5d4f3cc239c6fa05bc",
+        "affectsGlobalScope": true
+      },
+      "../../src/tabs/tabs.context.ts": {
+        "version": "cfda95d1f0c82eb5fd30312985faddfd0307bd8a6158e5964ccbd4259032eee6",
+        "signature": "2c8132594cba06c6efa661e64ba2cb8bcf92646a7ce4d6ea50113f04bdf20895",
+        "affectsGlobalScope": false
+      },
+      "../../src/tab-button/tabbutton.tsx": {
+        "version": "670f3e3c6809fc8e643b259dff7147a3481444eed4b85afec8ab65b97bc385b3",
+        "signature": "8f8cbf3c82e20959a41188860eef1bc1106e0846e000a3952ecd598bb628d886",
+        "affectsGlobalScope": false
+      },
+      "../../src/tab/tab.tsx": {
+        "version": "65a0094446216aa11e0c82205a51ed96073f26242a90c5fa47c5b604b34df0f0",
+        "signature": "f2d3aafd2be579b7b932726aca3afd3c015e109f40cdba78f8d1cc4848a8413c",
+        "affectsGlobalScope": false
+      },
+      "../../src/tabs/tabs.tsx": {
+        "version": "39b7410bdf7fb58f3ce68ee438907d72654aa204f6cac23394f06f507d668164",
+        "signature": "15f0010d3641c8eb1b27c025305488ec2a4d3775d0f2c204b421c06a2a857184",
+        "affectsGlobalScope": false
+      },
+      "../../index.ts": {
+        "version": "73f7ef810aa5d8aee5a2230aa39adbcfc549cf82581b254accda4a96e35f18c3",
+        "signature": "5d761f5ce7fa68ef6066a160132955c9d17d9ee226222d280cfa6fcdf9af4956",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
+        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/jest-diff/build/difflines.d.ts": {
+        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/jest-diff/build/printdiffs.d.ts": {
+        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/jest/index.d.ts": {
+        "version": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
+        "signature": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "jsx": 2,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts",
+        "lib.es5.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.iterable.d.ts"
+      ],
+      "module": 1,
+      "moduleResolution": 2,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "pretty": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "strict": true,
+      "stripInternal": true,
+      "target": 1,
+      "types": [
+        "jest"
+      ],
+      "typeRoots": [
+        "../../../../node_modules/@types"
+      ],
+      "composite": true,
+      "outDir": "./",
+      "strictNullChecks": false,
+      "project": "../..",
+      "watch": true,
+      "configFilePath": "../../tsconfig.json"
+    },
+    "referencedMap": {
+      "../../../../node_modules/@types/jest/index.d.ts": [
+        "../../../../node_modules/jest-diff/build/index.d.ts",
+        "../../../../node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../../node_modules/@types/react/index.d.ts": [
+        "../../../../node_modules/@types/prop-types/index.d.ts",
+        "../../../../node_modules/@types/react/global.d.ts",
+        "../../../../node_modules/csstype/index.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/difflines.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/index.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/difflines.d.ts",
+        "../../../../node_modules/jest-diff/build/printdiffs.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/pretty-format/build/index.d.ts": [
+        "../../../../node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../index.ts": [
+        "../../../../node_modules/tslib/tslib.d.ts",
+        "../../src/tab-button/tabbutton.tsx",
+        "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.tsx"
+      ],
+      "../../src/tab-button/tabbutton.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts",
+        "../../../../node_modules/tslib/tslib.d.ts",
+        "../../src/tabs/tabs.context.ts"
+      ],
+      "../../src/tab/tab.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts",
+        "../../../../node_modules/tslib/tslib.d.ts",
+        "../../src/tabs/tabs.context.ts"
+      ],
+      "../../src/tabs/tabs.context.ts": [
+        "../../../../node_modules/@types/react/index.d.ts",
+        "../../../../node_modules/tslib/tslib.d.ts"
+      ],
+      "../../src/tabs/tabs.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts",
+        "../../../../node_modules/tslib/tslib.d.ts",
+        "../../src/tabs/tabs.context.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../../../node_modules/@types/jest/index.d.ts": [
+        "../../../../node_modules/jest-diff/build/index.d.ts",
+        "../../../../node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../../node_modules/@types/react/index.d.ts": [
+        "../../../../node_modules/@types/prop-types/index.d.ts",
+        "../../../../node_modules/@types/react/global.d.ts",
+        "../../../../node_modules/csstype/index.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/difflines.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/index.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/difflines.d.ts",
+        "../../../../node_modules/jest-diff/build/printdiffs.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../node_modules/pretty-format/build/index.d.ts": [
+        "../../../../node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../index.ts": [
+        "../../src/tab-button/tabbutton.tsx",
+        "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.tsx"
+      ],
+      "../../src/tab-button/tabbutton.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../src/tab/tab.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../src/tabs/tabs.context.ts": [
+        "../../../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../src/tabs/tabs.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../node_modules/@types/jest/index.d.ts",
+      "../../../../node_modules/@types/prop-types/index.d.ts",
+      "../../../../node_modules/@types/react/global.d.ts",
+      "../../../../node_modules/@types/react/index.d.ts",
+      "../../../../node_modules/csstype/index.d.ts",
+      "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+      "../../../../node_modules/jest-diff/build/difflines.d.ts",
+      "../../../../node_modules/jest-diff/build/index.d.ts",
+      "../../../../node_modules/jest-diff/build/printdiffs.d.ts",
+      "../../../../node_modules/jest-diff/build/types.d.ts",
+      "../../../../node_modules/pretty-format/build/index.d.ts",
+      "../../../../node_modules/pretty-format/build/types.d.ts",
+      "../../../../node_modules/tslib/tslib.d.ts",
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../index.ts",
+      "../../src/tab-button/tabbutton.tsx",
+      "../../src/tab/tab.tsx",
+      "../../src/tabs/tabs.context.ts",
+      "../../src/tabs/tabs.tsx"
+    ]
+  },
+  "version": "4.1.3"
+}

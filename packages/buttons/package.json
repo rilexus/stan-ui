@@ -8,7 +8,7 @@
   },
   "description": "Buttons for Stan-UI.",
   "main": "lib/cjs/index.js",
-  "typings": "lib/esm/index.d.ts",
+  "typings": "lib/cjs/index.d.ts",
   "unpkg": "dist/buttons.bundle.js",
   "scripts": {
     "clean": "rm -rf dist/* && rm -rf lib/* && rm -rf src/generated/*",
@@ -54,8 +54,5 @@
     "stan-ui"
   ],
   "license": "MIT",
-  "dependencies": {
-    "prettier": "^2.2.1"
-  },
   "gitHead": "2414cdac2edcd495bebf32cbed0b753eec604ac1"
 }
