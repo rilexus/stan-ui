@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@stan-ui/buttons": "1.0.14",
-    "@stan-ui/tabs": "1.0.3",
+    "@stan-ui/tabs": "1.0.4",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -32,7 +32,7 @@
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
   },
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Site for the Stan-UI react library.",
   "author": "Stanislav Panchenko",
   "license": "MIT",
