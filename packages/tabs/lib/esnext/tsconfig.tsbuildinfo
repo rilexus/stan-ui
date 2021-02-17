@@ -67,8 +67,8 @@
         "affectsGlobalScope": false
       },
       "../../src/tab/tab.tsx": {
-        "version": "7dca37353a70ea213baa248a198e55b685ec303dc72083ef30eee3d0649bde8c",
-        "signature": "d9a48a48efb34a1703c88fdbeaf170bd41b745a818e7715662f4e0feed5ab122",
+        "version": "65a0094446216aa11e0c82205a51ed96073f26242a90c5fa47c5b604b34df0f0",
+        "signature": "f2d3aafd2be579b7b932726aca3afd3c015e109f40cdba78f8d1cc4848a8413c",
         "affectsGlobalScope": false
       },
       "../../src/tabs/tabs.tsx": {
@@ -77,8 +77,8 @@
         "affectsGlobalScope": false
       },
       "../../index.ts": {
-        "version": "73f7ef810aa5d8aee5a2230aa39adbcfc549cf82581b254accda4a96e35f18c3",
-        "signature": "5d761f5ce7fa68ef6066a160132955c9d17d9ee226222d280cfa6fcdf9af4956",
+        "version": "05e7df1a0074f8deac0768fa0abb2e1b7f36712dbe3f955651749907a2c09fae",
+        "signature": "8df8264caddff972dfcc9078b2a0df6d9d150353c839de01d74f4e84c08e5bb3",
         "affectsGlobalScope": false
       },
       "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
@@ -192,6 +192,7 @@
         "../../../../node_modules/tslib/tslib.d.ts",
         "../../src/tab-button/tabbutton.tsx",
         "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.context.ts",
         "../../src/tabs/tabs.tsx"
       ],
       "../../src/tab-button/tabbutton.tsx": [
@@ -200,6 +201,7 @@
         "../../src/tabs/tabs.context.ts"
       ],
       "../../src/tab/tab.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts",
         "../../../../node_modules/tslib/tslib.d.ts",
         "../../src/tabs/tabs.context.ts"
       ],
@@ -243,9 +245,13 @@
       "../../index.ts": [
         "../../src/tab-button/tabbutton.tsx",
         "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.context.ts",
         "../../src/tabs/tabs.tsx"
       ],
       "../../src/tab-button/tabbutton.tsx": [
+        "../../../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../src/tab/tab.tsx": [
         "../../../../node_modules/@types/react/index.d.ts"
       ],
       "../../src/tabs/tabs.context.ts": [

@@ -77,8 +77,8 @@
         "affectsGlobalScope": false
       },
       "../../index.ts": {
-        "version": "73f7ef810aa5d8aee5a2230aa39adbcfc549cf82581b254accda4a96e35f18c3",
-        "signature": "5d761f5ce7fa68ef6066a160132955c9d17d9ee226222d280cfa6fcdf9af4956",
+        "version": "05e7df1a0074f8deac0768fa0abb2e1b7f36712dbe3f955651749907a2c09fae",
+        "signature": "8df8264caddff972dfcc9078b2a0df6d9d150353c839de01d74f4e84c08e5bb3",
         "affectsGlobalScope": false
       },
       "../../../../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
@@ -159,7 +159,6 @@
       "outDir": "./",
       "strictNullChecks": false,
       "project": "../..",
-      "watch": true,
       "configFilePath": "../../tsconfig.json"
     },
     "referencedMap": {
@@ -193,6 +192,7 @@
         "../../../../node_modules/tslib/tslib.d.ts",
         "../../src/tab-button/tabbutton.tsx",
         "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.context.ts",
         "../../src/tabs/tabs.tsx"
       ],
       "../../src/tab-button/tabbutton.tsx": [
@@ -245,6 +245,7 @@
       "../../index.ts": [
         "../../src/tab-button/tabbutton.tsx",
         "../../src/tab/tab.tsx",
+        "../../src/tabs/tabs.context.ts",
         "../../src/tabs/tabs.tsx"
       ],
       "../../src/tab-button/tabbutton.tsx": [
