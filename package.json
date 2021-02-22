@@ -12,7 +12,7 @@
     "test": "lerna run --parallel test",
     "test:watch": "lerna run --parallel test:watch",
     "prepare-release": "git checkout main && git pull --rebase origin main && lerna updated",
-    "release": "yarn run prepare-release && lerna publish --exact"
+    "release": "yarn run prepare-release && lerna publish --conventional-commits --exact"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -52,15 +52,10 @@
       "url": "https://github.com/rilexus"
     }
   ],
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "workspaces": [
     "packages/*"
   ],
   "private": true,
   "author": "Stanislav Panchenko",
-  "version": "1.0.0"
+  "version": "independent"
 }
