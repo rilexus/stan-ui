@@ -23,10 +23,14 @@
     "react-dom": "^15.3.0 || 16 || 17"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
     "@types/jest": "^26.0.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "awesome-typescript-loader": "^5.2.1",
+    "husky": "^5.1.0",
     "lerna": "^3.22.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -51,6 +55,11 @@
       "url": "https://github.com/rilexus"
     }
   ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "private": true,
   "author": "Stanislav Panchenko",
   "version": "1.0.0"
