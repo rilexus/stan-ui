@@ -1,9 +1,6 @@
 {
   "name": "@stan-ui/core",
   "description": "Stan-UI react library.",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "clean": "lerna run --parallel clean",
     "compile": "lerna run compile",
@@ -60,6 +57,9 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "author": "Stanislav Panchenko",
   "version": "1.0.0"
