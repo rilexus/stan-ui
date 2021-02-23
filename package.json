@@ -10,6 +10,7 @@
     "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
     "format:check": "prettier --check \"./**/*.{ts,tsx,json}\"",
     "test": "lerna run --parallel test",
+    "lint": "lerna run lint --parallel",
     "test:watch": "lerna run --parallel test:watch",
     "prepare-release": "git checkout main && git pull --rebase origin main && lerna updated",
     "release": "yarn run prepare-release && lerna publish --conventional-commits --exact"
@@ -26,7 +27,10 @@
     "@types/jest": "^26.0.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
     "awesome-typescript-loader": "^5.2.1",
+    "eslint": "^7.20.0",
     "husky": "^5.1.0",
     "lerna": "^3.22.1",
     "react": "^17.0.1",

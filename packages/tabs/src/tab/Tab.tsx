@@ -6,7 +6,7 @@ interface TabProps {
   children?: ReactElement;
 }
 
-const Tab = ({children, name}: TabProps): any => {
+const Tab = ({children, name}: TabProps): ReactElement => {
   const tabContext = useTabsContext()
   return tabContext.activeTabName === name ? children: null;
 };

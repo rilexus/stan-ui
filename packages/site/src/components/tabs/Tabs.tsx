@@ -12,11 +12,13 @@ const tabs = [
   },
 ]
 
-const Button = ({name}: {name: string}): any => {
+const Button = ({name}: {name: string}): ReactElement => {
   return (
     <TabButton>
-      {(setTabName: any) => {
-        return <button onClick={() => setTabName(name)}>Activate Tab: {name}</button>
+      {(setTabName: any): ReactElement => {
+        return <button onClick={():void => {
+          setTabName(name)
+        }}>Activate Tab: {name}</button>
       }}
     </TabButton>
   )
@@ -29,12 +31,12 @@ const Tabs = (): ReactElement => {
   return (
     <StanTabs
       activeTabName={activeTabName}
-      onTabChange={(e: {target: {name: string}}) => {
+      onTabChange={(e: {target: {name: string}}):void => {
         const {target: { name }} = e;
         setActiveTabName(name);
       }}>
       <div>
-        {tabs.map(({id, name}) => {
+        {tabs.map(({id, name}): ReactElement => {
           return <Button name={name} key={id}/>
         })}
       </div>
@@ -42,7 +44,9 @@ const Tabs = (): ReactElement => {
         {tabs.map(({id, name}) => {
           return (
             <Tab name={name} key={id}>
-              Tab {name}
+              <div>
+                Tab {name}
+              </div>
             </Tab>
           )
         })}

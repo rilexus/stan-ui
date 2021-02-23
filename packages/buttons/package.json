@@ -18,6 +18,7 @@
     "compile": "run-p \"compile:*\"",
     "compile:esm": "tsc -p ./",
     "compile:cjs": "tsc -p ./ -m commonjs --outDir lib/cjs",
+    "lint": "eslint src --ext js,ts,tsx",
     "compile:esnext": "tsc -p ./ -t esnext --outDir lib/esnext",
     "test": "jest",
     "test:watch": "jest --watch"

@@ -1,9 +1,9 @@
-import React from "react";
+import React, {ReactElement} from "react";
 import { Button } from "@stan-ui/buttons";
 import {Tabs} from './components'
 
 
-const App = () => {
+const App = (): ReactElement => {
   return (
     <div>
       <Button />

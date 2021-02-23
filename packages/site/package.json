@@ -10,6 +10,7 @@
     "webpack:serve": "webpack serve --config ./webpack.config.js --env mode=development --env port=8000",
     "dist": "npm run webpack",
     "start:dev": "npm run webpack:serve",
+    "lint": "eslint src --ext js,ts,tsx",
     "test:watch": "jest --watch"
   },
   "dependencies": {
